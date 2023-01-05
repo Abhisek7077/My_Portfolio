@@ -39,7 +39,7 @@ input[type=number]::-webkit-inner-spin-button {
     color: var(--text-white);
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 6000;
+    font-weight: bold;
     background-color: var(--primary-color);
     padding: .875rem 3.125rem;
     border-radius: .625rem;
@@ -263,6 +263,9 @@ transition: all .3s ease;
     padding-left: 2.5rem;
     font-size: 2.1875rem;
 }
+.list {
+    margin-bottom: 3rem;
+}
 .resume_wrapper .shape {
     position: absolute;
     left: 0;
@@ -377,4 +380,87 @@ canvas.particles-js-canvas-el {
     left: 0;
     z-index: -1000;
     margin: 0px;
+}
+/* Contact us page */
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info {
+    color: #fff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+.contact-info, .contact-form {
+    flex: 1;
+}
+.contact-form h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .text-box {
+    background: rgb(223, 147, 199);
+    color: #fff;
+    border: none;
+    width: calc(50% -10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form textarea {
+    background: rgb(223, 147, 199);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rbga(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .send-btn {
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+.contact-form .send-btn:hover {
+    background: #0582E3;
+}
+.footer {
+    text-align: center;
+    color: #fff;
 }

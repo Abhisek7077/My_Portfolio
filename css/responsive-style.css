@@ -128,8 +128,19 @@ a {
     margin-top: 1.25rem;
     display: inline-block;
 }
-/* testimonal */
-
+/* Contact */
+.contact-section{
+    flex-direction: column;
+}
+.contact-info, .contact-form {
+    margin: 30px 50px;
+}
+.contact-form h2 {
+    font-size: 30px;
+}
+.contact-form .text-box {
+    width: 100%;
+}
 }
 @media (max-width:490px) {
 /* about */
